@@ -3,5 +3,5 @@ def Hello(name):
 
 
 print('App has been loaded...')
-userName = input('Type ur name: ')
+userName = input('Type your name: ')
 Hello(userName)
