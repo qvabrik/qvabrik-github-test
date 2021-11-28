@@ -12,6 +12,15 @@ db = db.Database()
 print('App has been loaded...')
 userName = input('Type your name: ')
 Hello(userName)
+while True:
+    choise = input('Do you want to do some magic with number? [y]/[n]: ')
+    if choise == 'y':
+        break
+    elif choise == 'n':
+        exit()
+    else:
+        print('No such command as [' + choise + ']. Please try again.')
+        continue
 
 someNumb = r.numberInput()
 newNumb = r.randNumber(someNumb)
